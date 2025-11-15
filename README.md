@@ -9,7 +9,11 @@
 |    Nivel    |    Temas    |    Ejercicios    |
 
 | **1. DOM Básico** | `createElement`, `appendChild`, `querySelector`, `remove()` | Listas dinámicas, eliminar elementos, botones que borran |
+
 | **2. Eventos** | `click`, `focus`, `input` | Botón con `console.log`, input que filtra en tiempo real |
+
 | **3. ES6+** | `destructuring`, `spread`, `map`, `filter`, `reduce` | Copiar arrays, fusionar objetos, filtrar streamers |
+
 | **4. APIs & Fetch** | `fetch`, `async/await`, manejo de errores | Game of Thrones + Pokémon aleatorio |
+
 | **5. CSS + UX** | Flexbox, `object-fit`| Imágenes centradas, círculos |
