@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="9_api-pokemon.js" defer></script>
+    <title>9 Pokémon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #140166c7;
+            color: rgb(228, 186, 50);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+        .pokemon-image {
+            width: 200px;  
+            height: 200px;   
+            object-fit: cover;
+            border-radius: 50%; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            margin: 20px;
+            border: 5px solid white;
+        }
+        #pokemon-name {
+            font-size: 2em;
+            margin-top: 20px;
+            text-transform: capitalize; 
+        }
+        .recargar {
+            background: #ee9208;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .recargar:hover {
+            background: #ff7b25;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Pokémon Aleatorio!</h1>
+    <p>Conoce a los pokemons aleatoriamente, pincha en el boton o recarga la pagina.</p>
+    
+    <img class="pokemon-image" src="" alt="Pokémon aleatorio" style="display: none;">
+    <p id="pokemon-name"></p>
+    
+    <button class="recargar" onclick="cargarNuevoPokemon()">¡Otro Pokemon!</button>
+</body>
+</html>

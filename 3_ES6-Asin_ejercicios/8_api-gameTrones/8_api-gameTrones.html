@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Trones</title>
+    <script src="8_api-gameTrones.js" defer></script>
+    <style>
+        h2{
+            color: #0a3a1d;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background:#a5e6bf;
+            color: white;
+        }
+        .character-image {
+            width: 200px;     
+            height: 300px;
+            margin: auto;
+            padding: 10px;       
+            object-fit: cover;      
+            border-radius: 15px;  
+
+        }
+        #character-list {
+            padding: 12px;
+            font-size: 16px;
+            width: 280px;
+            border-radius: 10px;
+            border: 2px solid #f0e6b1;
+            color: #0a3a1d;
+        }
+    </style>
+</head>
+<body>
+    <h2>Elige un personaje de Game of Thrones</h2>
+    <select id="character-list">
+        <option value="">Selecciona un personaje...</option>
+    </select>
+    <div>
+        <img class="character-image" src="" alt="Personaje" style="display: none;">
+    </div>
+</body>
+</html>
