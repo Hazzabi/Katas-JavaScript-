@@ -6,7 +6,7 @@
 
 ## Con estro he aprendido:
 
-|    Nivel    |    Temas    |    Ejercicios    |
+|    Apendizaje   |    Temas aprendidos   |    Ejercicios hechos   |
 
 | **1. DOM Básico** | `createElement`, `appendChild`, `querySelector`, `remove()` | Listas dinámicas, eliminar elementos, botones que borran |
 
@@ -16,4 +16,3 @@
 
 | **4. APIs & Fetch** | `fetch`, `async/await`, manejo de errores | Game of Thrones + Pokémon aleatorio |
 
-| **5. CSS + UX** | Flexbox, `object-fit`| Imágenes centradas, círculos |
